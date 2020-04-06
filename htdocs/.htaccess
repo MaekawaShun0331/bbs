@@ -1,0 +1,8 @@
+    RewriteEngine On
+    
+    #トレイリングスラッシュの削除
+    RewriteRule ^(.*)/$ $1 [L,R=301]
+    
+    #フロントPHPへのリライト
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
