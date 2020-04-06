@@ -13,15 +13,15 @@ set_include_path(get_include_path() . PATH_SEPARATOR . $incPath);
 require_once 'DAOBase.php';
 require_once 'Dispatcher.php';
 require_once 'Common.php';
-
+$config = parse_ini_file('../dbConfig.ini');
 // DB接続情報設定
 $connInfo = array(
-    'host'     => 'localhost',
-    'dbname'   => 'bbs_maekawa',
-    'dbuser'   => 'root',
-    'password' => 'rootpass'
+    'host'     => $config['host'],
+    'dbname'   => $config['dbname'],
+    'dbuser'   => $config['dbuser'],
+    'password' => $config['password']
 );
-DAOBase::setConnectionInfo($connInfo );
+DAOBase::setConnectionInfo($connInfo);
 
 session_start();
 //リクエスト処理

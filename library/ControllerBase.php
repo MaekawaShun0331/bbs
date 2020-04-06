@@ -1,7 +1,7 @@
 <?php
 
 require_once "Request.php";
-require_once "smarty/libs/Smarty.class.php";
+require_once "../vendor/autoload.php";
 
 abstract class ControllerBase
 {
