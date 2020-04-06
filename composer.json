@@ -1,6 +1,6 @@
 {
     "require": {
-        "php": "~5.6.0",
+        "php": "~5.6",
         "smarty/smarty": "3.1.30"
     }
 }
