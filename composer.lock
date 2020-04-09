@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5186ceb38ea77755b3ce81bd40405b8e",
+    "content-hash": "064d5eded1e72cfdef09da23b420f5ad",
     "packages": [
         {
             "name": "smarty/smarty",
@@ -68,9 +68,7 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": "~5.6"
-    },
+    "platform": [],
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
 }
