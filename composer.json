@@ -1,5 +1,6 @@
 {
     "require": {
-        "smarty/smarty": "3.1.30"
+        "smarty/smarty": "3.1.30",
+        "ext-mbstring": "*"
     }
 }

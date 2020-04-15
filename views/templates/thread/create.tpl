@@ -10,16 +10,6 @@
 <tr><td nowrap width='99%'><font size=+1 color=#000000><b>新規スレッド作成</b></font></td>
     <td nowrap align=right valign=top>&nbsp;</td></tr>
 <tr><td colspan=2>
-<ul style="line-height: 123%;">
-★<font color="red"><b>単発質問スレッド禁止！</b></font> 自分の質問のためにスレッドを立ててはいけません。<br>
-<br>
-★マルチポスト禁止！ 【マルチポスト＝複数の場所に同じ投稿をすること】<br>
-　 レスは気長に待とう。他所で質問するときは「質問を取り下げます」と断ってから。<br>
-<br>
-★著作権侵害などの違法行為に関係すると思われる質問・話題は禁止です。<br>
-<br>
-★荒らしは完全無視＆放置してください。無視できないあなたも荒らしです。<br>
-</ul>
 <form method=POST action="/thread/store">
 <table border=0 cellspacing=2 width=100%>
 <tr><td nowrap align="right" width=16%>タイトル：</td><td><input name="thre_name" size="40" maxlength=40>&nbsp; &nbsp;<input type=submit name=submit value="新規スレッド書込"></td></tr>
