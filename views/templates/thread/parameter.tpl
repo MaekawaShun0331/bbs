@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/read.js"></script>
 <title>掲示板</title>
 <link rel="stylesheet" type="text/css" href="/css/index.css">

@@ -33,7 +33,7 @@ function errorResponse($erMessage){
 // 	http_response_code( 301 ) ;
 
 // 	// リダイレクト
-// 	header( "Location: http://".IPADRESS."/bbs/error.php" ) ;
+// 	header( "Location: https://".IPADRESS."/bbs/error.php" ) ;
     echo $erMessage;
 	exit ;
 }
