@@ -66,8 +66,8 @@ class ThreadController extends ControllerBase
         $thread->addResponse($query);
 
         // 投稿処理後、スレッド内容表示画面へリダイレクト
-        //TODO IPはiniファイルから取得するようにする
-        header('Location: https://'. $_SERVER['SERVER_NAME']. '/thread/'. $query['thre_id']. '/l20');
+        $http = empty($_SERVER["HTTPS"]) ? "http://" : "https://";
+        header('Location: '. $http. $_SERVER['SERVER_NAME']. '/thread/'. $query['thre_id']. '/l20');
     }
 
     // スレッド新規作成画面表示処理
@@ -86,7 +86,8 @@ class ThreadController extends ControllerBase
         $thread->addThread($query);
 
         // 作成処理後、スレッド内容表示画面へリダイレクト
-        header('Location: https://'. $_SERVER['SERVER_NAME']. '/thread/comp');
+        $http = empty($_SERVER["HTTPS"]) ? "http://" : "https://";
+        header('Location: '. $http. $_SERVER['SERVER_NAME']. '/thread/comp');
     }
 
     // スレッド作成完了画面表示処理

@@ -1,9 +1,9 @@
     RewriteEngine On
     
     #末尾スラッシュがあれば削除
-    RewriteRule ^(.*)/$ $1 [L,R=301]
+    RewriteRule ^(.*)/$ $1 [R]
 
     #実在ファイルをリライト対象から除外(css, img等)
     RewriteCond %{REQUEST_FILENAME} !-f
     #フロントPHPへのリライト
-    RewriteRule ^ index.php [L]
+    RewriteRule ^ index.php [QSA,L]

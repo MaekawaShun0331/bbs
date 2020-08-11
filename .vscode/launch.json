@@ -10,7 +10,7 @@
             "request": "launch",
             "port": 9000,
             "pathMappings": {
-                "C:/inetpub/wwwroot": "C:/workspace/bbs/htdocs"
+                "C:/Apache24/htdocs": "C:/workspace/bbs/htdocs"
             }
         },
         {
