@@ -4,24 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c0f46ee12225f286c63df9850216ebb",
+    "content-hash": "e04421e81723acbbe892c684351504d8",
     "packages": [
         {
             "name": "smarty/smarty",
-            "version": "v3.1.30",
+            "version": "v3.1.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "ed2b7f1146cfda13df1eea8a5f707a1b771b6e7e"
+                "reference": "2fc443806cdcaee4441be4d0bb09f8fa56a17f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/ed2b7f1146cfda13df1eea8a5f707a1b771b6e7e",
-                "reference": "ed2b7f1146cfda13df1eea8a5f707a1b771b6e7e",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/2fc443806cdcaee4441be4d0bb09f8fa56a17f2c",
+                "reference": "2fc443806cdcaee4441be4d0bb09f8fa56a17f2c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2"
+                "php": "^5.2 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5 || ^6.5 || ^5.7 || ^4.8",
+                "smarty/smarty-lexer": "^3.1"
             },
             "type": "library",
             "extra": {
@@ -31,9 +35,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "libs/Smarty.class.php",
-                    "libs/SmartyBC.class.php",
-                    "libs/sysplugins/"
+                    "libs/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -59,7 +61,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-08-07T18:46:49+00:00"
+            "time": "2023-03-28T19:45:54+00:00"
         }
     ],
     "packages-dev": [],
